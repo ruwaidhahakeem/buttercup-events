@@ -23,6 +23,9 @@ Route::middleware([
 
 
     Route::get('/dashboard', function () {
+
+        debug(auth()->user()->role);
+
         return view('dashboard');
     })->name('dashboard');
 
