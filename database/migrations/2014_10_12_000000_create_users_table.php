@@ -26,7 +26,7 @@ return new class extends Migration
             // very small binary requirement
             $table
             ->tinyInteger('role')
-            ->default(\app\Enums\UserRole::User->value);
+            ->default(\App\Enums\UserRole::User->value);
 
             $table->string('temp')->default('1.45') ->nullable();
 

@@ -11,4 +11,11 @@ class Categories extends Model implements HasMedia
 {
     use HasFactory;
     use InteractsWithMedia;
+
+
+protected $fillable =[
+    'category_id',
+    'name',
+    'info',
+];
 }

@@ -32,13 +32,7 @@
                                 champion of the top division of college football. The format fits within the academic
                                 calendar and preserves the sport’s unique and compelling regular season.</p>
                             <div class="flex flex-row items-center mt-4 text-gray-700">
-                                <div class="w-1/2">
-                                    Mercedes-Benz Superdome
-                                </div>
-                                <div class="w-1/2 flex justify-end">
-                                    <img src="https://collegefootballplayoff.com/images/section_logo.png" alt=""
-                                        class="w-8">
-                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -59,7 +53,7 @@
                                                 d="m21.515 3.143-5-3a1 1 0 0 0-1.03 0l-5 3A1 1 0 0 0 10 4v6a1 1 0 0 0 1 1h3V7h4v4h3a1 1 0 0 0 1-1V4a1 1 0 0 0-.485-.857Z" />
                                         </svg>
                                         <div>
-                                            <h4 class="text-lg font-bold text-gray-900 mb-1">Know your prospect</h4>
+                                            <h4 class="text-lg font-bold text-gray-900 mb-1">About</h4>
                                             <p class="text-sm text-gray-500 leading-relaxed">Lorem ipsum dolor sit
                                                 amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                             </p>
@@ -75,7 +69,7 @@
                                                 d="m23.371 12.749-3.742-1.5a1 1 0 0 1-.629-.926v-.878A3.982 3.982 0 0 0 21 6V4.172A4.116 4.116 0 0 0 17.393.019 4 4 0 0 0 13 4v2a3.982 3.982 0 0 0 2 3.445v.878a4.737 4.737 0 0 1-1.6 2.065c-.068.044-.134.093-.2.138l.911.365A2.988 2.988 0 0 1 16 15.677V18c-.003.341-.066.68-.184 1H23a1 1 0 0 0 1-1v-4.323a1 1 0 0 0-.629-.928Z" />
                                         </svg>
                                         <div>
-                                            <h4 class="text-lg font-bold text-gray-900 mb-1">Be personal</h4>
+                                            <h4 class="text-lg font-bold text-gray-900 mb-1">Time</h4>
                                             <p class="text-sm text-gray-500 leading-relaxed">Lorem ipsum dolor sit
                                                 amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                             </p>
@@ -91,7 +85,24 @@
                                                 d="M3.95 13.908.125 21.5l5.434-1.358L8 24l2.94-6.058c-2.866-.303-5.365-1.827-6.99-4.034ZM20.05 13.908l3.825 7.592-5.434-1.358L16 24l-2.94-6.058c2.866-.303 5.365-1.827 6.99-4.034Z" />
                                         </svg>
                                         <div>
-                                            <h4 class="text-lg font-bold text-gray-900 mb-1">Pursue quality</h4>
+                                            <h4 class="text-lg font-bold text-gray-900 mb-1">Location</h4>
+                                            <p class="text-sm text-gray-500 leading-relaxed">Lorem ipsum dolor sit
+                                                amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="flex items-start">
+                                        <svg class="w-6 h-6 flex-shrink-0 fill-current mr-4" viewBox="0 0 24 24">
+                                            <path class="text-indigo-500"
+                                                d="M12 0C7.589 0 4 3.589 4 8s3.589 8 8 8 8-3.589 8-8-3.589-8-8-8Zm0 10a2 2 0 1 1-.001-3.999A2 2 0 0 1 12 10Z" />
+                                            <path class="text-indigo-300"
+                                                d="M3.95 13.908.125 21.5l5.434-1.358L8 24l2.94-6.058c-2.866-.303-5.365-1.827-6.99-4.034ZM20.05 13.908l3.825 7.592-5.434-1.358L16 24l-2.94-6.058c2.866-.303 5.365-1.827 6.99-4.034Z" />
+                                        </svg>
+                                        <div>
+                                            <h4 class="text-lg font-bold text-gray-900 mb-1">Event Host</h4>
                                             <p class="text-sm text-gray-500 leading-relaxed">Lorem ipsum dolor sit
                                                 amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                             </p>
@@ -112,10 +123,13 @@
                                                     class="text-lg font-bold text-indigo-600 mb-1 hover:text-indigo-900">
                                                     Book a spot!</h4>
                                             </a>
-
                                         </div>
                                     </div>
                                 </li>
+
+
+
+
                             </ul>
                         </div>
                     </div>

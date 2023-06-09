@@ -13,6 +13,13 @@ return new class extends Migration
     {
         Schema::create('events', function (Blueprint $table) {
             $table->id();
+            $table->foreignID('category_id')->constrained('categories')->cascadeOnDelete();
+            $table->string('name');
+            $table->string('date');
+            $table->string('info');
+            $table->string('time');
+            $table->string('location');
+            $table->string('host')->nullable();
             $table->timestamps();
         });
     }
