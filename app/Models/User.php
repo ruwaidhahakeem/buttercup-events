@@ -9,14 +9,18 @@ use Illuminate\Notifications\Notifiable;
 use Laravel\Fortify\TwoFactorAuthenticatable;
 use Laravel\Jetstream\HasProfilePhoto;
 use Laravel\Sanctum\HasApiTokens;
+use Illuminate\Database\Eloquent\Model;
+use Spatie\MediaLibrary\HasMedia;
+use Spatie\MediaLibrary\InteractsWithMedia;
 
-class User extends Authenticatable
+class User extends Authenticatable implements HasMedia
 {
     use HasApiTokens;
     use HasFactory;
     use HasProfilePhoto;
     use Notifiable;
     use TwoFactorAuthenticatable;
+    use InteractsWithMedia;
 
     /**
      * The attributes that are mass assignable.
@@ -27,6 +31,14 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'role',
+
+        //profiles
+        //name, email, country,email, card no
+
+        'country',
+        'phone',
+        'card_no',
     ];
 
     /**
@@ -48,6 +60,7 @@ class User extends Authenticatable
      */
     protected $casts = [
         'email_verified_at' => 'datetime',
+        'role'=>\app\Enums\UserRole::class, //checks the enum and takes the value and to its appropriate role
     ];
 
     /**

@@ -36,14 +36,6 @@
                                     class="focus:outline-none border-b w-full pb-2 border-sky-400 placeholder-gray-500 mb-8"
                                     placeholder="Phone Number " />
                             </div>
-                            <div class="">
-                                <input type="password"
-                                    class="focus:outline-none border-b w-full pb-2 border-sky-400 placeholder-gray-500 mb-8"
-                                    placeholder="Password " />
-                            </div>
-                            <div>
-
-                            </div>
 
                             <div class="">
                                 <input type="text"
